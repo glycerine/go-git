@@ -4,6 +4,7 @@ package ssh
 import (
 	"context"
 	"fmt"
+	"log"
 	"reflect"
 	"strconv"
 
@@ -34,6 +35,7 @@ func NewClient(config *ssh.ClientConfig) transport.Transport {
 // DefaultAuthBuilder is the function used to create a default AuthMethod, when
 // the user doesn't provide any.
 var DefaultAuthBuilder = func(user string) (AuthMethod, error) {
+	log.Println("DefaultAuthBuilder User: ", user)
 	return NewSSHAgentAuth(user)
 }
 
@@ -187,6 +189,7 @@ func (c *command) setAuthFromEndpoint() error {
 			c.endpoint.User = usrConfig
 		}
 	}
+	log.Println("USER:", c.endpoint.User)
 	c.auth, err = DefaultAuthBuilder(c.endpoint.User)
 	return err
 }

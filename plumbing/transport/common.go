@@ -234,6 +234,7 @@ func parseSCPLike(endpoint string) (*Endpoint, bool) {
 	if err != nil {
 		port = 0
 	}
+	fmt.Println(user, host, portStr, path)
 
 	return &Endpoint{
 		Protocol: "ssh",
