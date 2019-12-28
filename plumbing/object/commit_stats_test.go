@@ -4,10 +4,10 @@ import (
 	"context"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
+	"github.com/glycerine/go-git"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/object"
+	"github.com/glycerine/go-git/storage/memory"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/memfs"

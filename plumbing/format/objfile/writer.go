@@ -6,7 +6,7 @@ import (
 	"io"
 	"strconv"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
+	"github.com/glycerine/go-git/plumbing"
 )
 
 var (

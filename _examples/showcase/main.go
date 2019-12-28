@@ -5,10 +5,10 @@ import (
 	"os"
 	"strings"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
+	"github.com/glycerine/go-git"
+	"github.com/glycerine/go-git/plumbing/object"
 
-	. "gopkg.in/src-d/go-git.v4/_examples"
+	. "github.com/glycerine/go-git/_examples"
 )
 
 // Example of an specific use case:

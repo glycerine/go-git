@@ -4,9 +4,9 @@ import (
 	"io"
 	"sort"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
-	"gopkg.in/src-d/go-git.v4/utils/diff"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/object"
+	"github.com/glycerine/go-git/utils/diff"
 
 	"github.com/sergi/go-diff/diffmatchpatch"
 )

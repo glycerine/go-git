@@ -4,9 +4,9 @@ import (
 	"container/list"
 	"io"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/storer"
+	"github.com/glycerine/go-git/storage"
 )
 
 type commitPreIterator struct {

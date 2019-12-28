@@ -6,10 +6,10 @@ import (
 	"io"
 	"net"
 
-	"gopkg.in/src-d/go-git.v4/plumbing/format/pktline"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport"
-	"gopkg.in/src-d/go-git.v4/plumbing/transport/internal/common"
-	"gopkg.in/src-d/go-git.v4/utils/ioutil"
+	"github.com/glycerine/go-git/plumbing/format/pktline"
+	"github.com/glycerine/go-git/plumbing/transport"
+	"github.com/glycerine/go-git/plumbing/transport/internal/common"
+	"github.com/glycerine/go-git/utils/ioutil"
 )
 
 // DefaultClient is the default git client.

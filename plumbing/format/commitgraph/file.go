@@ -7,8 +7,8 @@ import (
 	"io"
 	"time"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/utils/binary"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/utils/binary"
 )
 
 var (

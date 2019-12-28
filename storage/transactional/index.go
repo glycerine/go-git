@@ -1,8 +1,8 @@
 package transactional
 
 import (
-	"gopkg.in/src-d/go-git.v4/plumbing/format/index"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
+	"github.com/glycerine/go-git/plumbing/format/index"
+	"github.com/glycerine/go-git/plumbing/storer"
 )
 
 // IndexStorage implements the storer.IndexStorage for the transactional package.

@@ -3,9 +3,9 @@ package main
 import (
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
+	"github.com/glycerine/go-git"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/object"
 )
 
 type exitCode int

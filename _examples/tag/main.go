@@ -4,10 +4,10 @@ import (
 	"fmt"
 	"os"
 
-	"gopkg.in/src-d/go-git.v4"
-	. "gopkg.in/src-d/go-git.v4/_examples"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/object"
+	"github.com/glycerine/go-git"
+	. "github.com/glycerine/go-git/_examples"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/object"
 )
 
 // Basic example of how to list tags.

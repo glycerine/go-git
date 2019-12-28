@@ -8,8 +8,8 @@ import (
 	"io/ioutil"
 	"testing"
 
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	. "gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
+	"github.com/glycerine/go-git/plumbing"
+	. "github.com/glycerine/go-git/plumbing/format/idxfile"
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-git-fixtures.v3"

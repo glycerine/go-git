@@ -2,8 +2,8 @@
 package filesystem
 
 import (
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem/dotgit"
+	"github.com/glycerine/go-git/plumbing/cache"
+	"github.com/glycerine/go-git/storage/filesystem/dotgit"
 
 	"gopkg.in/src-d/go-billy.v4"
 )

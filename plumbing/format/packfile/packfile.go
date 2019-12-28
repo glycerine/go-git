@@ -6,10 +6,10 @@ import (
 	"os"
 
 	billy "gopkg.in/src-d/go-billy.v4"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/format/idxfile"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/cache"
+	"github.com/glycerine/go-git/plumbing/format/idxfile"
+	"github.com/glycerine/go-git/plumbing/storer"
 )
 
 var (

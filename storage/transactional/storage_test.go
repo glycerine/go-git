@@ -5,13 +5,13 @@ import (
 
 	. "gopkg.in/check.v1"
 	"gopkg.in/src-d/go-billy.v4/memfs"
-	"gopkg.in/src-d/go-git.v4/plumbing"
-	"gopkg.in/src-d/go-git.v4/plumbing/cache"
-	"gopkg.in/src-d/go-git.v4/plumbing/storer"
-	"gopkg.in/src-d/go-git.v4/storage"
-	"gopkg.in/src-d/go-git.v4/storage/filesystem"
-	"gopkg.in/src-d/go-git.v4/storage/memory"
-	"gopkg.in/src-d/go-git.v4/storage/test"
+	"github.com/glycerine/go-git/plumbing"
+	"github.com/glycerine/go-git/plumbing/cache"
+	"github.com/glycerine/go-git/plumbing/storer"
+	"github.com/glycerine/go-git/storage"
+	"github.com/glycerine/go-git/storage/filesystem"
+	"github.com/glycerine/go-git/storage/memory"
+	"github.com/glycerine/go-git/storage/test"
 )
 
 func Test(t *testing.T) { TestingT(t) }
